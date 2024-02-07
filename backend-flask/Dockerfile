@@ -11,6 +11,5 @@ EXPOSE ${PORT}
 
 COPY . .
  
-CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=4570"]
+CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0", "--port=4567"]
 
-FRONTEND_URL="*" BACKEND_URL="*" docker container run --rm -p 4568:4568 -d backend-flask

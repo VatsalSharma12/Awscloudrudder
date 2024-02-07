@@ -14,7 +14,7 @@ ports:
     port: 4559
     onOpen: open-browser
   - port: 4567
-    onOpen: open-browser
+    onOpen: ignore
   - port: 4568
     onOpen: open-browser
 
