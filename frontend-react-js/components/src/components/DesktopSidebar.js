@@ -1,5 +1,5 @@
 import './DesktopSidebar.css';
-import Search from './Search';
+import Search from '../Search';
 import TrendingSection from './TrendingsSection'
 import SuggestedUsersSection from './SuggestedUsersSection'
 import JoinSection from './JoinSection'

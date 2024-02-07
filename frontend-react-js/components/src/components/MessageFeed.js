@@ -1,5 +1,5 @@
 import './MessageFeed.css';
-import MessageItem from './MessageItem';
+import MessageItem from '../MessageItem';
 
 export default function MessageFeed(props) {
   return (
