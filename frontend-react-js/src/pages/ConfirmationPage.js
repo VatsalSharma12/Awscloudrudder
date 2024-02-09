@@ -6,7 +6,7 @@ import {ReactComponent as Logo} from '../components/svg/logo.svg';
 // [TODO] Authenication
 import Cookies from 'js-cookie'
 
-export default function ConfirmationPage() {
+export default function ConfirmationPages() {
   const [email, setEmail] = React.useState('');
   const [code, setCode] = React.useState('');
   const [errors, setErrors] = React.useState('');
@@ -28,7 +28,7 @@ export default function ConfirmationPage() {
 
   const onsubmit = async (event) => {
     event.preventDefault();
-    console.log('ConfirmationPage.onsubmit')
+    console.log('ConfirmationPages.onsubmit')
     // [TODO] Authenication
     if (Cookies.get('user.email') === undefined || Cookies.get('user.email') === '' || Cookies.get('user.email') === null){
       setErrors("You need to provide an email in order to send Resend Activiation Code")   
